@@ -21,4 +21,4 @@ curl -O -L https://github.com/tektoncd/cli/archive/v${version}.tar.gz
 
 rpmbuild -bs tekton.spec --define "_sourcedir $PWD" --define "_srcrpmdir $PWD"
 
-copr-cli --config=/var/secret/copr/copr build tektoncd-cli tektoncd-cli-${version}-1.src.rpm
+copr-cli --config=/var/secret/copr/copr build tektoncd-cli *.src.rpm
