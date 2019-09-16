@@ -8,7 +8,7 @@
 
 Name:           tektoncd-cli
 Version:        %{version}
-Release:        1
+Release:        2
 Summary:        A command line interface for interacting with Tekton
 License:        ASL 2.0
 URL:            https://%{repo}
