@@ -71,6 +71,13 @@ Download the latest binary executable for your operating system:
   dnf install tektoncd-cli
   ```
 
+  on any other rpm based distros you can use the binary rpm shipped with the sources :
+
+  * [Binary RPM](https://github.com/tektoncd/cli/releases/download/v0.5.2/tektoncd-cli_amd64.rpm)
+
+   If you are running on Debian
+
+
 * Source install
 
   If you have [go](https://golang.org/) installed, and you want to compile the CLI from source you can checkout the [Git repository](https://github.com/tektoncd/cli) and run the following commands:
